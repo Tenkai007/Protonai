@@ -1,0 +1,82 @@
+/* ============================================
+   NexusAI — FAQ Accordion
+   ============================================ */
+
+.faq {
+  background: var(--bg-secondary);
+}
+
+.faq__list {
+  max-width: 800px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.faq-item {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--gradient-card);
+  overflow: hidden;
+  transition: border-color var(--duration-normal) var(--ease-out);
+}
+
+.faq-item.active {
+  border-color: var(--border-hover);
+}
+
+.faq-item__trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: var(--space-xl);
+  text-align: left;
+  font-family: var(--font-display);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-semibold);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: color var(--duration-fast);
+}
+
+.faq-item__trigger:hover {
+  color: var(--accent-primary);
+}
+
+.faq-item__icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  margin-left: var(--space-lg);
+  color: var(--text-secondary);
+  transition: transform var(--duration-normal) var(--ease-out), color var(--duration-fast);
+  transform: rotate(180deg); /* point down when closed */
+}
+
+.faq-item.active .faq-item__icon {
+  transform: rotate(0deg); /* point up when open */
+  color: var(--accent-primary);
+}
+
+.faq-item__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height var(--duration-slow) var(--ease-out);
+}
+
+.faq-item__answer {
+  padding: 0 var(--space-xl) var(--space-xl);
+  color: var(--text-secondary);
+  line-height: var(--lh-relaxed);
+  font-size: var(--fs-body-sm);
+}
+
+@media (max-width: 480px) {
+  .faq-item__trigger {
+    padding: var(--space-lg);
+    font-size: var(--fs-body-sm);
+  }
+  .faq-item__answer { padding: 0 var(--space-lg) var(--space-lg); }
+}

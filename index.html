@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proton — Intelligent Automation. Infinite Scale.</title>
+  <meta name="description" content="Proton is the enterprise AI automation platform that connects your tools, analyzes data, and orchestrates intelligent workflows at scale.">
+  <meta property="og:title" content="Proton — Intelligent Automation. Infinite Scale.">
+  <meta property="og:description" content="Proton is the enterprise AI automation platform that connects your tools, analyzes data, and orchestrates intelligent workflows at scale.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://proton.ai">
+  <meta property="og:image" content="https://proton.ai/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/stats.css">
+  <link rel="stylesheet" href="css/features.css">
+  <link rel="stylesheet" href="css/workflow.css">
+  <link rel="stylesheet" href="css/integrations.css">
+  <link rel="stylesheet" href="css/pricing.css">
+  <link rel="stylesheet" href="css/testimonials.css">
+  <link rel="stylesheet" href="css/faq.css">
+  <link rel="stylesheet" href="css/cta.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/cosmic.css">
+</head>
+<body>
+  <div class="global-mouse-glow"></div>
+  <canvas class="cosmic-bg-canvas"></canvas>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#" class="nav__logo" aria-label="Proton Home">
+        <svg class="nav__logo-icon" viewBox="0 0 16 16" fill="currentColor" style="width: 24px; height: 24px; color: var(--accent-primary);"><path d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034-4.81-2.748ZM14 5.357 8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11V5.357ZM7.25 14.436V8.43L2 5.357V11c0 .27.144.518.378.651l4.872 2.785Z"/></svg>
+        Proton
+      </a>
+      <nav class="nav__links" aria-label="Main navigation">
+        <a href="#features" class="nav__link">Features</a>
+        <a href="#workflow" class="nav__link">Workflow</a>
+        <a href="#integrations" class="nav__link">Integrations</a>
+        <a href="#pricing" class="nav__link">Pricing</a>
+        <a href="#faq" class="nav__link">FAQ</a>
+      </nav>
+      <a href="#pricing" class="btn btn--primary btn--sm nav__cta">Get Started</a>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+    <div class="nav__mobile" id="nav-mobile">
+      <a href="#features" class="nav__link">Features</a>
+      <a href="#workflow" class="nav__link">Workflow</a>
+      <a href="#integrations" class="nav__link">Integrations</a>
+      <a href="#pricing" class="nav__link">Pricing</a>
+      <a href="#faq" class="nav__link">FAQ</a>
+    </div>
+  </header>
+
+  <main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="hero__grid-pattern"></div>
+      <div class="hero__glow"></div>
+      <div class="hero__mouse-light" id="hero-mouse-light"></div>
+    </div>
+    <div class="container">
+      <div class="hero__content reveal">
+        <div class="badge badge--glow hero__badge"><span class="dot"></span> Now with Multi-Agent AI</div>
+        <h1 class="hero__title">Automate Everything.<br><span class="text-gradient">Scale Without Limits.</span></h1>
+        <p class="hero__subtitle">Proton connects your tools, analyzes your data, and orchestrates intelligent workflows — so your team focuses on what matters.</p>
+        <div class="hero__actions">
+          <a href="#pricing" class="btn btn--primary btn--lg">Start Automating</a>
+          <a href="#workflow" class="btn btn--ghost btn--lg">Watch Demo <span class="btn-arrow">→</span></a>
+        </div>
+      </div>
+      <div class="hero__preview reveal delay-2">
+        <div class="hero__dashboard">
+          <div class="dash__top-bar">
+            <div class="dash__dots"><span class="dash__dot dash__dot--red"></span><span class="dash__dot dash__dot--yellow"></span><span class="dash__dot dash__dot--green"></span></div>
+            <span class="dash__title">Proton Dashboard</span>
+            <div class="badge badge--success"><span class="dot"></span> Live</div>
+          </div>
+          <div class="dash__body">
+            <div class="dash__card">
+              <div class="dash__card-label">Workflows Active</div>
+              <div class="dash__card-value text-gradient">247</div>
+              <div class="dash__card-bar"><div class="dash__card-fill" style="width:78%"></div></div>
+            </div>
+            <div class="dash__card">
+              <div class="dash__card-label">AI Tasks / hr</div>
+              <div class="dash__card-value text-gradient">1,842</div>
+              <div class="dash__card-bar"><div class="dash__card-fill" style="width:92%"></div></div>
+            </div>
+            <div class="dash__card">
+              <div class="dash__card-label">Accuracy</div>
+              <div class="dash__card-value text-gradient">99.7%</div>
+              <div class="dash__card-bar"><div class="dash__card-fill" style="width:99%"></div></div>
+            </div>
+            <div class="dash__card dash__card--wide">
+              <div class="dash__card-label">Pipeline Status</div>
+              <div class="dash__nodes">
+                <span class="dash__node"><span class="dash__node-dot"></span>Ingest</span>
+                <span class="dash__node"><span class="dash__node-dot"></span>Transform</span>
+                <span class="dash__node"><span class="dash__node-dot"></span>Analyze</span>
+                <span class="dash__node"><span class="dash__node-dot"></span>Deploy</span>
+              </div>
+              <div class="dash__chart">
+                <div class="dash__bar" data-height="45%" style="height:10%"></div>
+                <div class="dash__bar" data-height="65%" style="height:10%"></div>
+                <div class="dash__bar dash__bar--active" data-height="85%" style="height:10%"></div>
+                <div class="dash__bar" data-height="55%" style="height:10%"></div>
+                <div class="dash__bar dash__bar--active" data-height="92%" style="height:10%"></div>
+                <div class="dash__bar" data-height="70%" style="height:10%"></div>
+                <div class="dash__bar" data-height="40%" style="height:10%"></div>
+                <div class="dash__bar dash__bar--active" data-height="78%" style="height:10%"></div>
+              </div>
+            </div>
+            <div class="dash__card">
+              <div class="dash__card-label">Uptime</div>
+              <div class="dash__card-value" style="color:var(--success)">99.99%</div>
+            </div>
+          </div>
+        </div>
+        <div class="hero__float hero__float--1">
+          <div class="hero__float-card"><span class="dot"></span> 3 Workflows Active</div>
+        </div>
+        <div class="hero__float hero__float--2">
+          <div class="hero__float-card"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent-primary)" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894ZM15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg> AI Processing</div>
+        </div>
+        <div class="hero__float hero__float--3">
+          <div class="hero__float-card"><svg width="14" height="14" viewBox="0 0 16 16" fill="var(--success)"><path d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034-4.81-2.748ZM14 5.357 8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11V5.357ZM7.25 14.436V8.43L2 5.357V11c0 .27.144.518.378.651l4.872 2.785Z"/></svg> 99.9% Uptime</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats" id="stats">
+    <div class="container">
+      <div class="stats__grid">
+        <div class="stats__item reveal delay-1">
+          <div class="stats__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941"/></svg></div>
+          <div class="stats__number" data-count="10000" data-suffix="+">0</div>
+          <div class="stats__label">Businesses Automated</div>
+        </div>
+        <div class="stats__item reveal delay-2">
+          <div class="stats__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"/></svg></div>
+          <div class="stats__number" data-count="2.5" data-suffix="B" data-decimal="true">0</div>
+          <div class="stats__label">API Requests</div>
+        </div>
+        <div class="stats__item reveal delay-3">
+          <div class="stats__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894ZM15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg></div>
+          <div class="stats__number" data-count="8" data-suffix="M+">0</div>
+          <div class="stats__label">Hours Saved</div>
+        </div>
+        <div class="stats__item reveal delay-4">
+          <div class="stats__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"><path d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034-4.81-2.748ZM14 5.357 8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11V5.357ZM7.25 14.436V8.43L2 5.357V11c0 .27.144.518.378.651l4.872 2.785Z"/></svg></div>
+          <div class="stats__number" data-count="500" data-suffix="+">0</div>
+          <div class="stats__label">Enterprise Clients</div>
+        </div>
+        <div class="stats__item reveal delay-5">
+          <div class="stats__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3"/></svg></div>
+          <div class="stats__number" data-count="50" data-prefix="<" data-suffix="ms">0</div>
+          <div class="stats__label">Avg Latency</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-overline">Platform Capabilities</span>
+        <h2 class="section-title">Everything You Need to<br><span class="text-gradient">Automate at Scale</span></h2>
+        <p class="section-subtitle">A unified platform combining AI analytics, workflow automation, and enterprise security in one powerful solution.</p>
+      </div>
+      <div class="features__grid">
+        <div class="feature-card feature-card--lg reveal delay-1">
+          <button class="feature-card__trigger" aria-expanded="false" aria-controls="feature-content-0">
+            <div class="feature-card__header-left">
+              <div class="feature-card__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3"/></svg>
+              </div>
+              <h3 class="feature-card__title">Workflow Automation</h3>
+            </div>
+            <div class="feature-card__chevron" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5"/></svg>
+            </div>
+          </button>
+          <div class="feature-card__content" id="feature-content-0">
+            <p class="feature-card__desc">Build complex automation pipelines with our visual workflow builder. Connect triggers, conditions, and actions across your entire stack with zero code required.</p>
+          </div>
+        </div>
+        <div class="feature-card reveal delay-2">
+          <button class="feature-card__trigger" aria-expanded="false" aria-controls="feature-content-1">
+            <div class="feature-card__header-left">
+              <div class="feature-card__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"/></svg>
+              </div>
+              <h3 class="feature-card__title">AI Analytics</h3>
+            </div>
+            <div class="feature-card__chevron" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5"/></svg>
+            </div>
+          </button>
+          <div class="feature-card__content" id="feature-content-1">
+            <p class="feature-card__desc">Real-time intelligence with predictive insights. Understand trends before they happen.</p>
+          </div>
+        </div>
+        <div class="feature-card reveal delay-3">
+          <button class="feature-card__trigger" aria-expanded="false" aria-controls="feature-content-2">
+            <div class="feature-card__header-left">
+              <div class="feature-card__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg>
+              </div>
+              <h3 class="feature-card__title">Document Intelligence</h3>
+            </div>
+            <div class="feature-card__chevron" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5"/></svg>
+            </div>
+          </button>
+          <div class="feature-card__content" id="feature-content-2">
+            <p class="feature-card__desc">Extract, classify, and process documents with AI-powered understanding.</p>
+          </div>
+        </div>
+        <div class="feature-card reveal delay-4">
+          <button class="feature-card__trigger" aria-expanded="false" aria-controls="feature-content-3">
+            <div class="feature-card__header-left">
+              <div class="feature-card__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"><path d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034-4.81-2.748ZM14 5.357 8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11V5.357ZM7.25 14.436V8.43L2 5.357V11c0 .27.144.518.378.651l4.872 2.785Z"/></svg>
+              </div>
+              <h3 class="feature-card__title">Enterprise Security</h3>
+            </div>
+            <div class="feature-card__chevron" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5"/></svg>
+            </div>
+          </button>
+          <div class="feature-card__content" id="feature-content-3">
+            <p class="feature-card__desc">SOC 2 compliant with end-to-end encryption and role-based access control.</p>
+          </div>
+        </div>
+        <div class="feature-card reveal delay-5">
+          <button class="feature-card__trigger" aria-expanded="false" aria-controls="feature-content-4">
+            <div class="feature-card__header-left">
+              <div class="feature-card__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg>
+              </div>
+              <h3 class="feature-card__title">API Integration</h3>
+            </div>
+            <div class="feature-card__chevron" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5"/></svg>
+            </div>
+          </button>
+          <div class="feature-card__content" id="feature-content-4">
+            <p class="feature-card__desc">Connect to 200+ services with pre-built connectors and a powerful REST API.</p>
+          </div>
+        </div>
+        <div class="feature-card feature-card--lg reveal delay-6">
+          <button class="feature-card__trigger" aria-expanded="false" aria-controls="feature-content-5">
+            <div class="feature-card__header-left">
+              <div class="feature-card__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894ZM15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg>
+              </div>
+              <h3 class="feature-card__title">Multi-Agent AI</h3>
+            </div>
+            <div class="feature-card__chevron" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5"/></svg>
+            </div>
+          </button>
+          <div class="feature-card__content" id="feature-content-5">
+            <p class="feature-card__desc">Orchestrate multiple specialized AI agents that collaborate, reason, and execute complex tasks autonomously — from data analysis to customer engagement to code generation.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKFLOW -->
+  <section class="workflow" id="workflow">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-overline">How It Works</span>
+        <h2 class="section-title">From Idea to Automation<br><span class="text-gradient">In Four Steps</span></h2>
+        <p class="section-subtitle">Get started in minutes. Our guided setup takes care of the complexity so you can focus on results.</p>
+      </div>
+      <div class="workflow__steps">
+        <div class="workflow__step reveal delay-1">
+          <div class="workflow__step-number">01</div>
+          <div class="workflow__step-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M19.902 4.098a3.75 3.75 0 0 0-5.304 0l-4.5 4.5a3.75 3.75 0 0 0 1.035 6.037.75.75 0 0 1-.646 1.353 5.25 5.25 0 0 1-1.449-8.45l4.5-4.5a5.25 5.25 0 1 1 7.424 7.424l-1.757 1.757a.75.75 0 1 1-1.06-1.06l1.757-1.758a3.75 3.75 0 0 0 0-5.304ZM-7.389 4.267a.75.75 0 0 1 1.04.208 5.25 5.25 0 0 1-1.45 8.45l-4.5 4.5a5.25 5.25 0 1 1-7.424-7.424l1.757-1.757a.75.75 0 1 1 1.06 1.06l-1.757 1.758a3.75 3.75 0 1 0 5.304 5.304l4.5-4.5a3.75 3.75 0 0 0-1.035-6.037.75.75 0 0 1-.208-1.04Z" clip-rule="evenodd"/></svg></div>
+          <h3 class="workflow__step-title">Connect</h3>
+          <p class="workflow__step-desc">Link your existing tools and data sources with pre-built connectors.</p>
+        </div>
+        <div class="workflow__step reveal delay-2">
+          <div class="workflow__step-number">02</div>
+          <div class="workflow__step-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg></div>
+          <h3 class="workflow__step-title">Analyze</h3>
+          <p class="workflow__step-desc">AI scans your workflows and identifies optimization opportunities.</p>
+        </div>
+        <div class="workflow__step reveal delay-3">
+          <div class="workflow__step-number">03</div>
+          <div class="workflow__step-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894ZM15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg></div>
+          <h3 class="workflow__step-title">Automate</h3>
+          <p class="workflow__step-desc">Deploy intelligent automation pipelines with visual builders.</p>
+        </div>
+        <div class="workflow__step reveal delay-4">
+          <div class="workflow__step-number">04</div>
+          <div class="workflow__step-icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"/></svg></div>
+          <h3 class="workflow__step-title">Monitor</h3>
+          <p class="workflow__step-desc">Track performance with real-time dashboards and alerts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTEGRATIONS -->
+  <section class="integrations" id="integrations">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-overline">Ecosystem</span>
+        <h2 class="section-title">Connects With Your<br><span class="text-gradient">Entire Stack</span></h2>
+        <p class="section-subtitle">Seamlessly integrate with the tools your team already uses every day.</p>
+      </div>
+    </div>
+    <div class="integrations__track-wrapper">
+      <div class="integrations__track">
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M19.902 4.098a3.75 3.75 0 0 0-5.304 0l-4.5 4.5a3.75 3.75 0 0 0 1.035 6.037.75.75 0 0 1-.646 1.353 5.25 5.25 0 0 1-1.449-8.45l4.5-4.5a5.25 5.25 0 1 1 7.424 7.424l-1.757 1.757a.75.75 0 1 1-1.06-1.06l1.757-1.758a3.75 3.75 0 0 0 0-5.304ZM-7.389 4.267a.75.75 0 0 1 1.04.208 5.25 5.25 0 0 1-1.45 8.45l-4.5 4.5a5.25 5.25 0 1 1-7.424-7.424l1.757-1.757a.75.75 0 1 1 1.06 1.06l-1.757 1.758a3.75 3.75 0 1 0 5.304 5.304l4.5-4.5a3.75 3.75 0 0 0-1.035-6.037.75.75 0 0 1-.208-1.04Z" clip-rule="evenodd"/></svg></div><div><div class="integration-item__name">SalesForce</div><div class="integration-item__category">CRM</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg></div><div><div class="integration-item__name">Slack</div><div class="integration-item__category">Communication</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"><path d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034-4.81-2.748ZM14 5.357 8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11V5.357ZM7.25 14.436V8.43L2 5.357V11c0 .27.144.518.378.651l4.872 2.785Z"/></svg></div><div><div class="integration-item__name">AWS</div><div class="integration-item__category">Cloud</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"><path d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034-4.81-2.748ZM14 5.357 8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11V5.357ZM7.25 14.436V8.43L2 5.357V11c0 .27.144.518.378.651l4.872 2.785Z"/></svg></div><div><div class="integration-item__name">GitHub</div><div class="integration-item__category">DevTools</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg></div><div><div class="integration-item__name">Notion</div><div class="integration-item__category">Productivity</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M19.902 4.098a3.75 3.75 0 0 0-5.304 0l-4.5 4.5a3.75 3.75 0 0 0 1.035 6.037.75.75 0 0 1-.646 1.353 5.25 5.25 0 0 1-1.449-8.45l4.5-4.5a5.25 5.25 0 1 1 7.424 7.424l-1.757 1.757a.75.75 0 1 1-1.06-1.06l1.757-1.758a3.75 3.75 0 0 0 0-5.304ZM-7.389 4.267a.75.75 0 0 1 1.04.208 5.25 5.25 0 0 1-1.45 8.45l-4.5 4.5a5.25 5.25 0 1 1-7.424-7.424l1.757-1.757a.75.75 0 1 1 1.06 1.06l-1.757 1.758a3.75 3.75 0 1 0 5.304 5.304l4.5-4.5a3.75 3.75 0 0 0-1.035-6.037.75.75 0 0 1-.208-1.04Z" clip-rule="evenodd"/></svg></div><div><div class="integration-item__name">Stripe</div><div class="integration-item__category">Payments</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"/></svg></div><div><div class="integration-item__name">HubSpot</div><div class="integration-item__category">Marketing</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg></div><div><div class="integration-item__name">Teams</div><div class="integration-item__category">Communication</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"/></svg></div><div><div class="integration-item__name">BigQuery</div><div class="integration-item__category">Analytics</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"><path d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034-4.81-2.748ZM14 5.357 8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11V5.357ZM7.25 14.436V8.43L2 5.357V11c0 .27.144.518.378.651l4.872 2.785Z"/></svg></div><div><div class="integration-item__name">Dropbox</div><div class="integration-item__category">Storage</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3"/></svg></div><div><div class="integration-item__name">Zapier</div><div class="integration-item__category">Automation</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 0 1 1.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 0 1-1.449.12l-.738-.527c-.35-.25-.806-.272-1.203-.107-.397.165-.71.505-.781.929l-.149.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 0 1-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.505-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.107-1.204l-.527-.738a1.125 1.125 0 0 1 .12-1.45l.773-.773a1.125 1.125 0 0 1 1.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894ZM15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/></svg></div><div><div class="integration-item__name">Jira</div><div class="integration-item__category">Project Mgmt</div></div></div>
+        <!-- Duplicate set for seamless loop -->
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M19.902 4.098a3.75 3.75 0 0 0-5.304 0l-4.5 4.5a3.75 3.75 0 0 0 1.035 6.037.75.75 0 0 1-.646 1.353 5.25 5.25 0 0 1-1.449-8.45l4.5-4.5a5.25 5.25 0 1 1 7.424 7.424l-1.757 1.757a.75.75 0 1 1-1.06-1.06l1.757-1.758a3.75 3.75 0 0 0 0-5.304ZM-7.389 4.267a.75.75 0 0 1 1.04.208 5.25 5.25 0 0 1-1.45 8.45l-4.5 4.5a5.25 5.25 0 1 1-7.424-7.424l1.757-1.757a.75.75 0 1 1 1.06 1.06l-1.757 1.758a3.75 3.75 0 1 0 5.304 5.304l4.5-4.5a3.75 3.75 0 0 0-1.035-6.037.75.75 0 0 1-.208-1.04Z" clip-rule="evenodd"/></svg></div><div><div class="integration-item__name">SalesForce</div><div class="integration-item__category">CRM</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg></div><div><div class="integration-item__name">Slack</div><div class="integration-item__category">Communication</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"><path d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034-4.81-2.748ZM14 5.357 8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11V5.357ZM7.25 14.436V8.43L2 5.357V11c0 .27.144.518.378.651l4.872 2.785Z"/></svg></div><div><div class="integration-item__name">GitHub</div><div class="integration-item__category">DevTools</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"/></svg></div><div><div class="integration-item__name">Notion</div><div class="integration-item__category">Productivity</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M19.902 4.098a3.75 3.75 0 0 0-5.304 0l-4.5 4.5a3.75 3.75 0 0 0 1.035 6.037.75.75 0 0 1-.646 1.353 5.25 5.25 0 0 1-1.449-8.45l4.5-4.5a5.25 5.25 0 1 1 7.424 7.424l-1.757 1.757a.75.75 0 1 1-1.06-1.06l1.757-1.758a3.75 3.75 0 0 0 0-5.304ZM-7.389 4.267a.75.75 0 0 1 1.04.208 5.25 5.25 0 0 1-1.45 8.45l-4.5 4.5a5.25 5.25 0 1 1-7.424-7.424l1.757-1.757a.75.75 0 1 1 1.06 1.06l-1.757 1.758a3.75 3.75 0 1 0 5.304 5.304l4.5-4.5a3.75 3.75 0 0 0-1.035-6.037.75.75 0 0 1-.208-1.04Z" clip-rule="evenodd"/></svg></div><div><div class="integration-item__name">Stripe</div><div class="integration-item__category">Payments</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"/><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"/></svg></div><div><div class="integration-item__name">HubSpot</div><div class="integration-item__category">Marketing</div></div></div>
+        <div class="integration-item"><div class="integration-item__icon"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3"/></svg></div><div><div class="integration-item__name">Zapier</div><div class="integration-item__category">Automation</div></div></div>
+      </div>
+    </div>
+    <p class="integrations__count container reveal"><strong>200+ integrations</strong> and growing</p>
+  </section>
+
+  <!-- PRICING -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-overline">Pricing</span>
+        <h2 class="section-title">Simple, Transparent<br><span class="text-gradient">Pricing</span></h2>
+        <p class="section-subtitle">Choose the plan that scales with your business. No hidden fees.</p>
+      </div>
+      <div class="pricing__toggle-wrap reveal">
+        <span class="pricing__toggle-label active" id="pricing-monthly-label">Monthly</span>
+        <button class="pricing__toggle" id="pricing-toggle" aria-label="Toggle billing period"><span class="pricing__toggle-knob"></span></button>
+        <span class="pricing__toggle-label" id="pricing-annual-label">Annual</span>
+        <span class="pricing__save-badge">Save 20%</span>
+      </div>
+      <div class="pricing__currency-wrap reveal">
+        <div class="pricing__currency">
+          <button class="pricing__currency-btn active" data-currency="USD">USD</button>
+          <button class="pricing__currency-btn" data-currency="EUR">EUR</button>
+          <button class="pricing__currency-btn" data-currency="INR">INR</button>
+        </div>
+      </div>
+      <div class="pricing__grid">
+        <div class="pricing-card reveal delay-1" data-tier="Starter">
+          <h3 class="pricing-card__name">Starter</h3>
+          <p class="pricing-card__desc">For small teams getting started with automation.</p>
+          <div class="pricing-card__price"><span class="pricing-card__currency">$</span><span class="pricing-card__amount" data-monthly="29">29</span><span class="pricing-card__period">/mo</span></div>
+          <hr class="pricing-card__divider">
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>Up to 5 workflows</li>
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>10,000 API calls/mo</li>
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>Basic analytics</li>
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>Email support</li>
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>5 integrations</li>
+          </ul>
+          <a href="#" class="btn btn--secondary">Get Started</a>
+        </div>
+        <div class="pricing-card pricing-card--featured reveal delay-2" data-tier="Professional">
+          <div class="pricing-card__badge">Most Popular</div>
+          <h3 class="pricing-card__name">Professional</h3>
+          <p class="pricing-card__desc">For growing teams that need powerful automation.</p>
+          <div class="pricing-card__price"><span class="pricing-card__currency">$</span><span class="pricing-card__amount" data-monthly="79">79</span><span class="pricing-card__period">/mo</span></div>
+          <hr class="pricing-card__divider">
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>Unlimited workflows</li>
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>500,000 API calls/mo</li>
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>Advanced AI analytics</li>
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>Priority support</li>
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>50 integrations</li>
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>Multi-agent AI</li>
+          </ul>
+          <a href="#" class="btn btn--primary">Get Started</a>
+        </div>
+        <div class="pricing-card reveal delay-3" data-tier="Enterprise">
+          <h3 class="pricing-card__name">Enterprise</h3>
+          <p class="pricing-card__desc">For organizations that need full platform access.</p>
+          <div class="pricing-card__price"><span class="pricing-card__currency">$</span><span class="pricing-card__amount" data-monthly="199">199</span><span class="pricing-card__period">/mo</span></div>
+          <hr class="pricing-card__divider">
+          <ul class="pricing-card__features">
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>Everything in Professional</li>
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>Unlimited API calls</li>
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>Custom AI models</li>
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>Dedicated account manager</li>
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>SSO &amp; SOC 2</li>
+            <li class="pricing-card__feature"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="pricing-card__check"><path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" /></svg>99.99% SLA</li>
+          </ul>
+          <a href="#" class="btn btn--secondary">Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-overline">Testimonials</span>
+        <h2 class="section-title">Trusted by Teams<br><span class="text-gradient">Worldwide</span></h2>
+      </div>
+      <div class="testimonials__grid">
+        <div class="testimonial-card reveal delay-1">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Proton transformed how we handle data pipelines. What used to take our team days now runs automatically in minutes. The ROI was visible within the first week."</p>
+          <div class="testimonial-card__author"><div class="testimonial-card__avatar">JM</div><div><div class="testimonial-card__name">Janhavi Mehta</div><div class="testimonial-card__role">CEO of Mehta Inc</div></div></div>
+        </div>
+        <div class="testimonial-card reveal delay-2">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"The multi-agent system is a game changer. We automated our entire customer onboarding flow and reduced processing time by 80%. Incredible platform."</p>
+          <div class="testimonial-card__author"><div class="testimonial-card__avatar">AV</div><div><div class="testimonial-card__name">Aditya Vasani</div><div class="testimonial-card__role">CEO of Vasani Estate</div></div></div>
+        </div>
+        <div class="testimonial-card reveal delay-3">
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__text">"Best enterprise automation tool we've used. The security compliance features and the 99.99% uptime SLA gave our legal team full confidence to adopt."</p>
+          <div class="testimonial-card__author"><div class="testimonial-card__avatar">A</div><div><div class="testimonial-card__name">Aarya</div><div class="testimonial-card__role">ceo of SleepyHead</div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-overline">FAQ</span>
+        <h2 class="section-title">Frequently Asked<br><span class="text-gradient">Questions</span></h2>
+      </div>
+      <div class="faq__list">
+        <div class="faq-item reveal delay-1">
+          <button class="faq-item__trigger" aria-expanded="false" role="button" tabindex="0">What is Proton?<svg class="faq-item__icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" /></svg></button>
+          <div class="faq-item__content" role="region"><p class="faq-item__answer">Proton is an enterprise AI automation platform that helps businesses automate workflows, analyze data, and integrate systems. It combines visual workflow builders with multi-agent AI to handle complex automation scenarios without code.</p></div>
+        </div>
+        <div class="faq-item reveal delay-2">
+          <button class="faq-item__trigger" aria-expanded="false" role="button" tabindex="0">How secure is the platform?<svg class="faq-item__icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" /></svg></button>
+          <div class="faq-item__content" role="region"><p class="faq-item__answer">Proton is SOC 2 Type II compliant with end-to-end encryption, role-based access control, and SSO support. All data is encrypted at rest and in transit. We maintain a 99.99% uptime SLA for enterprise customers.</p></div>
+        </div>
+        <div class="faq-item reveal delay-3">
+          <button class="faq-item__trigger" aria-expanded="false" role="button" tabindex="0">Can I try Proton for free?<svg class="faq-item__icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" /></svg></button>
+          <div class="faq-item__content" role="region"><p class="faq-item__answer">Yes! We offer a 14-day free trial on all plans with no credit card required. You get full access to all features during the trial period so you can evaluate the platform thoroughly.</p></div>
+        </div>
+        <div class="faq-item reveal delay-4">
+          <button class="faq-item__trigger" aria-expanded="false" role="button" tabindex="0">What integrations are supported?<svg class="faq-item__icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" /></svg></button>
+          <div class="faq-item__content" role="region"><p class="faq-item__answer">Proton supports 200+ pre-built integrations across CRM, cloud storage, communication platforms, developer tools, business intelligence, and more. We also provide a REST API and webhooks for custom integrations.</p></div>
+        </div>
+        <div class="faq-item reveal delay-5">
+          <button class="faq-item__trigger" aria-expanded="false" role="button" tabindex="0">How does billing work?<svg class="faq-item__icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" /></svg></button>
+          <div class="faq-item__content" role="region"><p class="faq-item__answer">Choose between monthly or annual billing. Annual plans save 20%. You can upgrade, downgrade, or cancel at any time. Enterprise customers can arrange custom billing through their account manager.</p></div>
+        </div>
+        <div class="faq-item reveal delay-6">
+          <button class="faq-item__trigger" aria-expanded="false" role="button" tabindex="0">What kind of support do you offer?<svg class="faq-item__icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" /></svg></button>
+          <div class="faq-item__content" role="region"><p class="faq-item__answer">Starter plans include email support. Professional plans get priority support with 4-hour response times. Enterprise customers receive a dedicated account manager, 24/7 phone support, and custom onboarding.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="cta">
+    <div class="container">
+      <div class="cta-section__inner reveal-scale">
+        <div class="cta-section__bg"></div>
+        <div class="cta-section__glow"></div>
+        <div class="cta-section__content">
+          <h2 class="cta-section__title">Ready to Transform<br><span class="text-gradient">Your Workflow?</span></h2>
+          <p class="cta-section__subtitle">Join 10,000+ teams already automating with Proton. Start your free trial today.</p>
+          <a href="#pricing" class="btn btn--white btn--lg">Start Free Trial</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a href="#" class="footer__logo">
+            <svg class="footer__logo-icon" viewBox="0 0 16 16" fill="currentColor" style="width: 24px; height: 24px; color: var(--accent-primary);"><path d="M8.372 1.349a.75.75 0 0 0-.744 0l-4.81 2.748L8 7.131l5.182-3.034-4.81-2.748ZM14 5.357 8.75 8.43v6.005l4.872-2.784A.75.75 0 0 0 14 11V5.357ZM7.25 14.436V8.43L2 5.357V11c0 .27.144.518.378.651l4.872 2.785Z"/></svg>
+            Proton
+          </a>
+          <p class="footer__tagline">Intelligent automation for modern teams. Connect, analyze, automate, and scale.</p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social-link" aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" d="M19.902 4.098a3.75 3.75 0 0 0-5.304 0l-4.5 4.5a3.75 3.75 0 0 0 1.035 6.037.75.75 0 0 1-.646 1.353 5.25 5.25 0 0 1-1.449-8.45l4.5-4.5a5.25 5.25 0 1 1 7.424 7.424l-1.757 1.757a.75.75 0 1 1-1.06-1.06l1.757-1.758a3.75 3.75 0 0 0 0-5.304ZM-7.389 4.267a.75.75 0 0 1 1.04.208 5.25 5.25 0 0 1-1.45 8.45l-4.5 4.5a5.25 5.25 0 1 1-7.424-7.424l1.757-1.757a.75.75 0 1 1 1.06 1.06l-1.757 1.758a3.75 3.75 0 1 0 5.304 5.304l4.5-4.5a3.75 3.75 0 0 0-1.035-6.037.75.75 0 0 1-.208-1.04Z" clip-rule="evenodd"/></svg></a>
+            <a href="#" class="footer__social-link" aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3"/></svg></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Product</h4>
+          <nav class="footer__col-links"><a href="#features" class="footer__col-link">Features</a><a href="#workflow" class="footer__col-link">Workflow</a><a href="#integrations" class="footer__col-link">Integrations</a><a href="#pricing" class="footer__col-link">Pricing</a></nav>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Company</h4>
+          <nav class="footer__col-links"><a href="#" class="footer__col-link">About</a><a href="#" class="footer__col-link">Careers</a><a href="#" class="footer__col-link">Blog</a><a href="#" class="footer__col-link">Press</a></nav>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Resources</h4>
+          <nav class="footer__col-links"><a href="#" class="footer__col-link">Documentation</a><a href="#" class="footer__col-link">API Reference</a><a href="#" class="footer__col-link">Community</a><a href="#faq" class="footer__col-link">FAQ</a></nav>
+        </div>
+        <div>
+          <h4 class="footer__col-title">Legal</h4>
+          <nav class="footer__col-links"><a href="#" class="footer__col-link">Privacy Policy</a><a href="#" class="footer__col-link">Terms of Service</a><a href="#" class="footer__col-link">Cookie Policy</a><a href="#" class="footer__col-link">Security</a></nav>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; 2026 Proton. All rights reserved.</p>
+        <p class="footer__built">Built with intelligence.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

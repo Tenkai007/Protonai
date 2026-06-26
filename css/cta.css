@@ -1,0 +1,65 @@
+/* ============================================
+   NexusAI — Final Call To Action
+   ============================================ */
+
+.cta-section {
+  position: relative;
+  overflow: hidden;
+  background: var(--bg-primary);
+}
+
+.cta-section__inner {
+  position: relative;
+  padding: var(--space-5xl) var(--space-3xl);
+  border-radius: var(--radius-2xl);
+  background: var(--gradient-cta-bg);
+  border: 1px solid var(--border-accent);
+  text-align: center;
+  overflow: hidden;
+}
+
+/* Background grid */
+.cta-section__bg {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle, hsla(250, 90%, 65%, 0.15) 1px, transparent 1px);
+  background-size: 32px 32px;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Glow */
+.cta-section__glow {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, hsla(250, 90%, 65%, 0.1), transparent 70%);
+  pointer-events: none;
+}
+
+.cta-section__content {
+  position: relative;
+  z-index: 1;
+}
+
+.cta-section__title {
+  font-size: var(--fs-h2);
+  margin-bottom: var(--space-lg);
+}
+
+.cta-section__subtitle {
+  font-size: var(--fs-body);
+  color: var(--text-secondary);
+  max-width: 500px;
+  margin-inline: auto;
+  margin-bottom: var(--space-2xl);
+  line-height: var(--lh-relaxed);
+}
+
+@media (max-width: 768px) {
+  .cta-section__inner { padding: var(--space-3xl) var(--space-xl); }
+}

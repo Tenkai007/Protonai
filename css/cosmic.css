@@ -1,0 +1,45 @@
+/* ============================================
+   Proton — Cosmic Background Styles
+   ============================================ */
+
+.global-mouse-glow {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: -1;
+  background: radial-gradient(
+    600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(139, 92, 246, 0.05) 0%,
+    rgba(59, 130, 246, 0.02) 40%,
+    transparent 80%
+  );
+  transition: opacity 0.5s ease;
+  will-change: background;
+}
+
+.cosmic-bg-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: -2;
+  display: block;
+}
+
+body {
+  background: radial-gradient(circle at 50% 0%, hsl(230, 35%, 8%) 0%, hsl(228, 25%, 5%) 40%, hsl(228, 30%, 3%) 100%) !important;
+  background-attachment: fixed !important;
+  position: relative;
+}
+
+/* Reveal cosmic canvas behind sections */
+section, 
+.stats, 
+.footer, 
+.cta-section {
+  background: transparent !important;
+}

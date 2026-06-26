@@ -1,0 +1,130 @@
+/* ============================================
+   NexusAI — Design Tokens
+   ============================================ */
+
+:root {
+  /* ---- Colors ---- */
+  --bg-primary:       hsl(228, 25%, 6%);
+  --bg-secondary:     hsl(228, 20%, 10%);
+  --bg-tertiary:      hsl(228, 18%, 14%);
+  --bg-elevated:      hsl(228, 18%, 12%);
+
+  --text-primary:     hsl(0, 0%, 96%);
+  --text-secondary:   hsl(228, 15%, 65%);
+  --text-tertiary:    hsl(228, 12%, 45%);
+
+  --accent-primary:   hsl(250, 90%, 65%);
+  --accent-secondary: hsl(200, 95%, 55%);
+  --accent-glow:      hsl(250, 100%, 75%);
+  --accent-subtle:    hsla(250, 90%, 65%, 0.08);
+  --accent-muted:     hsla(250, 90%, 65%, 0.15);
+
+  --border:           hsl(228, 18%, 18%);
+  --border-hover:     hsl(228, 18%, 28%);
+  --border-accent:    hsla(250, 90%, 65%, 0.3);
+
+  --surface-glass:    hsla(228, 20%, 12%, 0.7);
+  --surface-glass-hover: hsla(228, 20%, 16%, 0.8);
+
+  --success:          hsl(160, 70%, 50%);
+  --warning:          hsl(40, 90%, 60%);
+  --error:            hsl(0, 80%, 60%);
+
+  /* ---- Gradients ---- */
+  --gradient-hero:        linear-gradient(135deg, hsl(250, 90%, 65%) 0%, hsl(200, 95%, 55%) 100%);
+  --gradient-hero-subtle: linear-gradient(135deg, hsla(250, 90%, 65%, 0.15) 0%, hsla(200, 95%, 55%, 0.05) 100%);
+  --gradient-card:        linear-gradient(145deg, hsl(228, 20%, 13%) 0%, hsl(228, 25%, 8%) 100%);
+  --gradient-card-hover:  linear-gradient(145deg, hsl(228, 20%, 16%) 0%, hsl(228, 25%, 10%) 100%);
+  --gradient-border:      linear-gradient(135deg, hsla(250, 90%, 65%, 0.4), hsla(200, 95%, 55%, 0.4));
+  --gradient-text:        linear-gradient(135deg, hsl(250, 90%, 70%) 0%, hsl(200, 95%, 60%) 100%);
+  --gradient-cta-bg:      linear-gradient(135deg, hsla(250, 90%, 65%, 0.12) 0%, hsla(200, 95%, 55%, 0.08) 100%);
+
+  /* ---- Typography ---- */
+  --font-display: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  --font-body:    'Inter', system-ui, -apple-system, sans-serif;
+
+  --fs-display:   clamp(3rem, 6vw, 5.5rem);
+  --fs-h1:        clamp(2.5rem, 5vw, 4.5rem);
+  --fs-h2:        clamp(2rem, 3.5vw, 3rem);
+  --fs-h3:        clamp(1.25rem, 2vw, 1.75rem);
+  --fs-h4:        clamp(1.1rem, 1.5vw, 1.35rem);
+  --fs-body:      clamp(1rem, 1.1vw, 1.125rem);
+  --fs-body-sm:   clamp(0.875rem, 1vw, 1rem);
+  --fs-caption:   0.8rem;
+  --fs-overline:  0.75rem;
+
+  --fw-regular:   400;
+  --fw-medium:    500;
+  --fw-semibold:  600;
+  --fw-bold:      700;
+
+  --lh-tight:     1.15;
+  --lh-snug:      1.3;
+  --lh-normal:    1.6;
+  --lh-relaxed:   1.8;
+
+  --ls-tight:    -0.03em;
+  --ls-normal:    0;
+  --ls-wide:      0.05em;
+  --ls-wider:     0.1em;
+
+  /* ---- Spacing ---- */
+  --space-xs:     0.25rem;
+  --space-sm:     0.5rem;
+  --space-md:     1rem;
+  --space-lg:     1.5rem;
+  --space-xl:     2rem;
+  --space-2xl:    3rem;
+  --space-3xl:    4rem;
+  --space-4xl:    6rem;
+  --space-5xl:    8rem;
+  --space-6xl:    10rem;
+
+  --section-pad:  clamp(4rem, 8vw, 8rem);
+  --container-pad: clamp(1rem, 3vw, 2rem);
+
+  /* ---- Border Radius ---- */
+  --radius-sm:    6px;
+  --radius-md:    10px;
+  --radius-lg:    16px;
+  --radius-xl:    24px;
+  --radius-2xl:   32px;
+  --radius-full:  9999px;
+
+  /* ---- Shadows ---- */
+  --shadow-sm:    0 1px 3px hsla(0, 0%, 0%, 0.2);
+  --shadow-md:    0 4px 16px hsla(0, 0%, 0%, 0.25);
+  --shadow-lg:    0 8px 32px hsla(0, 0%, 0%, 0.3);
+  --shadow-xl:    0 16px 64px hsla(0, 0%, 0%, 0.35);
+  --shadow-glow:  0 0 40px hsla(250, 90%, 65%, 0.15);
+  --shadow-glow-lg: 0 0 80px hsla(250, 90%, 65%, 0.2);
+
+  /* ---- Transitions ---- */
+  --ease-out:     cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out:  cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-spring:  cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --duration-fast:    150ms;
+  --duration-normal:  300ms;
+  --duration-slow:    500ms;
+  --duration-slower:  800ms;
+
+  /* ---- Z-Index ---- */
+  --z-base:       1;
+  --z-dropdown:   10;
+  --z-sticky:     100;
+  --z-overlay:    500;
+  --z-modal:      1000;
+
+  /* ---- Container ---- */
+  --container-max:  1400px;
+  --container-4k:   1800px;
+}
+
+/* 4K scaling */
+@media (min-width: 2560px) {
+  :root {
+    --container-max: var(--container-4k);
+    --section-pad: 10rem;
+  }
+}

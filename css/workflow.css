@@ -1,0 +1,119 @@
+/* ============================================
+   NexusAI — Automation Workflow
+   ============================================ */
+
+.workflow {
+  background: var(--bg-secondary);
+  overflow: hidden;
+}
+
+.workflow__steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-xl);
+  position: relative;
+}
+
+/* Connecting line */
+.workflow__steps::before {
+  content: '';
+  position: absolute;
+  top: 44px;
+  left: calc(12.5% + 10px);
+  right: calc(12.5% + 10px);
+  height: 2px;
+  background: var(--border);
+  z-index: 0;
+}
+
+.workflow__steps::after {
+  content: '';
+  position: absolute;
+  top: 44px;
+  left: calc(12.5% + 10px);
+  right: calc(12.5% + 10px);
+  height: 2px;
+  background: var(--gradient-hero);
+  z-index: 0;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 1.5s var(--ease-out);
+}
+
+.workflow__steps.visible::after {
+  transform: scaleX(1);
+}
+
+.workflow__step {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.workflow__step-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: var(--gradient-card);
+  border: 2px solid var(--border);
+  margin-inline: auto;
+  margin-bottom: var(--space-xl);
+  font-family: var(--font-display);
+  font-size: var(--fs-body);
+  font-weight: var(--fw-bold);
+  color: var(--text-tertiary);
+  transition: all var(--duration-slow) var(--ease-out);
+}
+
+.workflow__steps.visible .workflow__step-number {
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+  box-shadow: var(--shadow-glow);
+}
+
+.workflow__step-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin-inline: auto;
+  margin-bottom: var(--space-md);
+  color: var(--accent-primary);
+  opacity: 0.6;
+}
+
+.workflow__step-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.workflow__step-title {
+  font-size: var(--fs-h4);
+  font-weight: var(--fw-semibold);
+  margin-bottom: var(--space-sm);
+}
+
+.workflow__step-desc {
+  font-size: var(--fs-body-sm);
+  color: var(--text-secondary);
+  line-height: var(--lh-relaxed);
+  max-width: 240px;
+  margin-inline: auto;
+}
+
+@media (max-width: 1024px) {
+  .workflow__steps {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-2xl);
+  }
+  .workflow__steps::before,
+  .workflow__steps::after { display: none; }
+}
+
+@media (max-width: 480px) {
+  .workflow__steps { grid-template-columns: 1fr; }
+}
